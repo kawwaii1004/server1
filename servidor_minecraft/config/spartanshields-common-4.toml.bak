@@ -1,0 +1,21 @@
+vanilla = {}
+
+[general]
+	#Set to true to have only Vanilla-based shields enabled. Note that this removes mod-based Shield recipes from the game!
+	vanilla_only = false
+	#Will force the uncraftable shield tooltip (highlighted in red) that show on some shields to not appear. Useful for modpack makers who wish to change recipes
+	force_disable_uncraftable_tooltips = false
+	#Durability Multiplier for Tower Shield variants compared to their basic Shield counterparts
+	#Range: 1.0 ~ 10.0
+	tower_shield_durability_multiplier = 1.25
+
+[shield_bash]
+	#Cooldown period for Shield Bashes
+	#Range: 1 ~ 1000
+	cooldown = 30
+	#Cooldown period for Shield Bashes for Tower Shields
+	#Range: 1 ~ 1000
+	cooldown_tower = 50
+	#Set to true to disable the Shield Bash feature. Shield bash enchantments will no longer have any effect
+	disabled = false
+
